@@ -1,0 +1,55 @@
+﻿body {
+  
+  margin-right: 30%;
+  margin-left: 220px;
+  color: black;
+  font-family: georgia, serif;
+  background: grey;
+}
+
+h1 {
+    background-color: #5E5EDE;
+	font-family: Georgia;
+	font-size: xx-large;
+	text-align: right;
+	color: #F5F5F5;
+	border-style: outset;
+	border-color: #6699FF;
+	background-color: #5E5EDE;
+}
+
+p {
+	padding: 10px;
+	text-align: left;
+	background: white;
+	border-style: inset;
+	border-color: #C0C0C0;
+	color: black;
+	font-size: 15px;
+	font-family: georgia;
+}
+
+.sidenav {
+	border-style: groove;
+	border-color: #C0C0C0;
+    width: 130px;
+    position: fixed;
+    z-index: 1;
+    top: 20px;
+    left: 10px;
+    background: gray;
+    overflow-x: hidden;
+    padding: 8px 0;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #2196F3;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #064579;
+}
