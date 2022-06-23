@@ -19,6 +19,41 @@ h1 {
 	background-color: #5E5EDE;
 }
 
+h2 {
+	padding: 10px;
+	margin-left: 170px;
+	text-align: left;
+	background: silver;
+	border-style: outset;
+	color: #336600;
+	font-size: 25px;
+	font-family: georgia;
+	border-bottom-color: #333333;
+	border-left-color: #FFFFFF;
+	border-right-color: #333333;
+	border-top-color: #FFFFFF;
+	font-style: italic;
+	font-weight: bold;
+}
+
+H3 {
+	padding: 2px;
+	margin-left: 170px;
+	margin-right: 66%;
+	text-align: left;
+	border-style: outset;
+	color: #FFFFFF;
+	font-size: 15px;
+	font-family: georgia;
+	border-bottom-color: #336600;
+	border-left-color: #00FF00;
+	border-right-color: #336600;
+	border-top-color: #00FF00;
+	font-style: italic;
+	font-weight: bold;
+	background-color: #008000;
+}
+
 p {
 	padding: 10px;
 	margin-left: 170px;
@@ -67,7 +102,8 @@ p {
 }
 
 footer {
-    text-align: center;
+	position: fixed;
+	text-align: center;
 	border-style: inset;
 	border-bottom-color: #FFFFFF;
 	border-left-color: #333333;
