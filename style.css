@@ -31,24 +31,28 @@ p {
 }
 
 .sidenav {
-	border-style: groove;
+	border-style: outset;
 	border-color: #C0C0C0;
-    width: 130px;
-    position: fixed;
-    z-index: 1;
-    top: 20px;
-    left: 10px;
-    background: gray;
-    overflow-x: hidden;
-    padding: 8px 0;
+	width: 130px;
+	position: absolute;
+	z-index: 1;
+	top: 20px;
+	left: 10px;
+	background: gray;
+	overflow-x: hidden;
+	padding: 8px 0;
 }
 
 .sidenav a {
-    padding: 6px 8px 6px 16px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #2196F3;
-    display: block;
+	padding: 6px 8px 6px 16px;
+	text-decoration: underline;
+	font-size: 50px;
+	color: #FFFFFF;
+	display: block;
+	font: menu;
+	font-family: Georgia;
+	font-style: oblique;
+	font-weight: bolder;
 }
 
 .sidenav a:hover {
