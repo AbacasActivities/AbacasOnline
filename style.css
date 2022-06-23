@@ -65,3 +65,11 @@ p {
 .sidenav a:hover {
     color: #064579;
 }
+
+footer {
+	border-style: inset;
+	border-bottom-color: #FFFFFF;
+	border-left-color: #333333;
+	border-right-color: #FFFFFF;
+	border-top-color: #333333;
+}
