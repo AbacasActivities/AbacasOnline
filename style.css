@@ -1,10 +1,10 @@
 body {
-  
-    margin-right: 20%;
-    margin-left: 220px;
-    color: black;
-    font-family: georgia, serif;
-    background: grey;
+	margin-right: 20%;
+	margin-left: 220px;
+	color: black;
+	font-family: georgia, serif;
+	background: grey;
+	background-color: #808080;
 }
 
 h1 {
@@ -25,10 +25,14 @@ p {
 	text-align: left;
 	background: white;
 	border-style: inset;
-	border-color: #C0C0C0;
+	border-color: #FFFFFF;
 	color: black;
 	font-size: 15px;
 	font-family: georgia;
+	border-bottom-color: #FFFFFF;
+	border-left-color: #333333;
+	border-right-color: #FFFFFF;
+	border-top-color: #333333;
 }
 
 .sidenav {
@@ -42,6 +46,10 @@ p {
 	background: gray;
 	overflow-x: hidden;
 	padding: 8px 0;
+	border-bottom-color: #333333;
+	border-left-color: #FFFFFF;
+	border-right-color: #333333;
+	border-top-color: #FFFFFF;
 }
 
 .sidenav a {
