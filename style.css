@@ -67,6 +67,7 @@ p {
 }
 
 footer {
+    text-align: center;
 	border-style: inset;
 	border-bottom-color: #FFFFFF;
 	border-left-color: #333333;
