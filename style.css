@@ -25,7 +25,6 @@ p {
 	text-align: left;
 	background: white;
 	border-style: inset;
-	border-color: #FFFFFF;
 	color: black;
 	font-size: 15px;
 	font-family: georgia;
@@ -37,7 +36,6 @@ p {
 
 .sidenav {
 	border-style: outset;
-	border-color: #C0C0C0;
 	width: 130px;
 	position: absolute;
 	z-index: 1;
