@@ -39,7 +39,7 @@ h2 {
 H3 {
 	padding: 2px;
 	margin-left: 170px;
-	margin-right: 50%;
+	width: 100px;
 	text-align: left;
 	border-style: outset;
 	color: #FFFFFF;
@@ -67,6 +67,17 @@ p {
 	border-left-color: #333333;
 	border-right-color: #FFFFFF;
 	border-top-color: #333333;
+}
+
+table {
+	background-color: silver;
+	width: 250px;
+	border-style: inset;
+	margin-left: 200;
+	border-bottom-color: #FFFFFF;
+	border-left-color: #333333;
+	border-right-color: #FFFFFF;
+	border-top-color: #000000;
 }
 
 .sidenav {
