@@ -108,6 +108,15 @@ table {
 	font-weight: bolder;
 }
 
+iframe {
+	border-style: outset;
+	border-bottom-color: #333333;
+	border-left-color: #FFFFFF;
+	border-right-color: #333333;
+	border-top-color: #FFFFFF;
+
+}
+
 .sidenav a:hover {
     color: #064579;
 }
