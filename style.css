@@ -9,6 +9,7 @@ body {
 
 h1 {
     background-color: #5E5EDE;
+    background-image: url('images/h1texture.png');
     height: 64px;
 	font-family: Georgia;
 	font-size: xx-large;
