@@ -8,9 +8,10 @@ body {
 }
 
 h1 {
-    background-color: #5E5EDE;
-    background-image: url('abacasactivities.github.io/AbacasOnline/images/h1texture.png');
-    height: 64px;
+    	background-color: #5E5EDE;
+    	background-image: url('abacasactivities.github.io/AbacasOnline/images/h1texture.png');
+	background-repeat: none;
+    	height: 64px;
 	font-family: Georgia;
 	font-size: xx-large;
 	text-align: right;
