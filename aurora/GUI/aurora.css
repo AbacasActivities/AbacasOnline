@@ -1,0 +1,54 @@
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin:0 auto;
+    display: table-cell;
+    background-image: linear-gradient(skyblue, aliceblue, lightgrey);
+    background-attachment: fixed;
+
+}
+
+.body2 {
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 620px;
+    background-image: linear-gradient(to bottom right, white, lightgrey, grey);
+    border-radius: 8px;
+    border-right-color: grey;
+    border-style: outset;
+}
+
+h1 {
+    height: 48px;
+    padding-right: 8px;
+    text-align: right;
+    font-size: 40px;
+    border-color: skyblue;
+    border-style: inset;
+    border-radius: 8px; 
+    background-image: linear-gradient(darkblue, slateblue, skyblue);
+    color: white;
+}
+
+nav {
+    height: 32px;
+    background-image: linear-gradient(lightcyan, teal, slategrey);
+    border-style: outset;
+    border-color: teal;
+    border-radius: 4px;
+}
+
+p {
+    padding: 12px;
+    border-color: grey;
+    border-style: inset;
+    border-radius: 8px; 
+    background-image: linear-gradient(to right, aliceblue, white, white, white, white, white)
+}
+
+
