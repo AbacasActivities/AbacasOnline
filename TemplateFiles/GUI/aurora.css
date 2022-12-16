@@ -10,9 +10,8 @@ body {
     display: table-cell;
     font-family: Georgia;
     background-image: linear-gradient(skyblue, aliceblue, darkslateblue);
-    background-color:darkslateblue;
+    background-color:skyblue;
     background-attachment: fixed;
-    width:100%;
 }
 
 .body2 {
@@ -20,6 +19,7 @@ body {
     padding-right: 12px;
     padding-bottom: 12px;
     width: 620px;
+	min-height: 760px;
     background-image: linear-gradient(to bottom right, white, lightgrey, grey);
     background-color: lightgrey;
     border-radius: 8px;
@@ -38,13 +38,13 @@ h1 {
     border-radius: 8px; 
     border-width: 3px;
     background-image: linear-gradient(darkblue, slateblue, skyblue);
-    background-color: slateblue;
+    background-color: darkblue;
     color: white;
 }
 
 h2 {
     background-image: linear-gradient(olivedrab, darkgreen);
-    background-color: olivedrab;
+    background-color: green;
     color: white;
     width: 50%;
     padding-right: 5px;
@@ -52,7 +52,7 @@ h2 {
     border-radius: 12px;
 }
 
-nav {
+.nav {
     height: 32px;
     background-image: linear-gradient(lightcyan, teal, slategrey);
     background-color: teal;
@@ -60,15 +60,14 @@ nav {
     border-color: teal;
     border-radius: 4px;
     border-width: 3px;
-    padding: 1px;
-    padding-left: 10px;
+	padding:1px;
+    padding-left: 5px;
     margin-top: 0;
 }
 
-nav a {
+.nav a {
     height: 20px;
     padding: 2px;
-    margin:auto;
     padding-left: 10px;
     padding-right: 10px;
     color: white;
@@ -80,11 +79,11 @@ nav a {
     border-radius: 4px;
 }
 
-nav a:hover {
+.nav a:hover {
     border-color: skyblue;
 }
 
-nav a:active {
+.nav a:active {
     border-style: groove;
     border-color: darkslategrey;
     border-radius: 4px;
@@ -129,6 +128,10 @@ iframe {
     margin-bottom:16px;
 }
 
+.spacer {
+	background-color:none;
+}
+
 footer {
     border-style: inset;
     border-color: skyblue;
@@ -136,7 +139,7 @@ footer {
     border-width: 3px;
     color: lightgrey;
     background-image: linear-gradient(darkblue, slateblue, skyblue);
-    background-color: slateblue;
+    background-color: darkblue;
     padding: 5px;
     margin-top: 16px;
 }
