@@ -1,5 +1,6 @@
 body {
     background-color: white;
+	background-image: url('paperBack.jpg');
     max-width: 613px;
     font-family: georgia;
 }

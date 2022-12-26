@@ -2,6 +2,7 @@ body {
     background-color: white;
     max-width: 613px;
     font-family: georgia;
+	background-image: url('paperBack.jpg');
 }
 
 h1 {

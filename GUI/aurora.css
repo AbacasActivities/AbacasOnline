@@ -14,21 +14,8 @@ body {
     background-attachment: fixed;
 }
 
-.body2 {
-    padding-left: 12px;
-    padding-right: 12px;
-    padding-bottom: 12px;
-    width: 620px;
-	min-height: 760px;
-    background-image: linear-gradient(to bottom right, white, lightgrey, grey);
-    background-color: lightgrey;
-    border-radius: 8px;
-    border-right-color: grey;
-    border-style: outset;
-    border-width:3px;
-}
-
 h1 {
+    background-image: linear-gradient(darkblue, slateblue, skyblue);
     height: 48px;
     padding-right: 8px;
     text-align: right;
@@ -37,9 +24,23 @@ h1 {
     border-style: inset;
     border-radius: 8px; 
     border-width: 3px;
-    background-image: linear-gradient(darkblue, slateblue, skyblue);
+
     background-color: darkblue;
     color: white;
+}
+
+.body2 {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 12px;
+    width: 620px;
+	min-height: 760px;
+    background-color: grey;
+	background-image: url('body2Back.png');
+	padding-left: url('paperBack.jpg');
+    border: 16px solid transparent;
+	border-radius:16px;
+    border-image: url(border.png) 30 round;
 }
 
 h2 {
@@ -106,7 +107,7 @@ h2 {
     border-radius: 8px; 
     border-width: 3px;
     background-color: white;
-    background-image: linear-gradient(to bottom right, aliceblue, white)
+    background-image: linear-gradient(lightblue, white)
 
 }
 
@@ -117,7 +118,7 @@ p {
     border-radius: 8px; 
     border-width: 3px;
     background-color: white;
-    background-image: linear-gradient(to bottom right, aliceblue, white);
+    background-image: url('paperBack.jpg');
 }
 
 iframe {
