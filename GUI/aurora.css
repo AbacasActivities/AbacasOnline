@@ -15,32 +15,40 @@ body {
 }
 
 h1 {
+
     background-image: linear-gradient(darkblue, slateblue, skyblue);
-    height: 48px;
+    background-repeat: repeat-x;	
+	height: 48px;
     padding-right: 8px;
     text-align: right;
     font-size: 40px;
     border-color: skyblue;
     border-style: inset;
-    border-radius: 8px; 
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
     border-width: 3px;
-
     background-color: darkblue;
+    background-image: url('h1Back.png');
     color: white;
 }
 
 .body2 {
-    padding-left: 0px;
-    padding-right: 0px;
+    padding-left: 2px;
+    padding-right: 2px;
     padding-bottom: 12px;
+	margin-top:0px;
     width: 620px;
 	min-height: 760px;
     background-color: grey;
 	background-image: url('body2Back.png');
-	padding-left: url('paperBack.jpg');
-    border: 16px solid transparent;
-	border-radius:16px;
+    border: 10px solid transparent;
     border-image: url(border.png) 30 round;
+	border-style:outset;
+	border-color:lightgrey;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+
 }
 
 h2 {
@@ -56,10 +64,13 @@ h2 {
 .nav {
     height: 32px;
     background-image: linear-gradient(lightcyan, teal, slategrey);
+	background-image: url('navBack.png');
     background-color: teal;
     border-style: outset;
     border-color: teal;
     border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
     border-width: 3px;
 	padding:1px;
     padding-left: 5px;
@@ -78,6 +89,8 @@ h2 {
     border-color: teal;
     border-width: 4px;
     border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
 }
 
 .nav a:hover {
@@ -88,6 +101,8 @@ h2 {
     border-style: groove;
     border-color: darkslategrey;
     border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
     color: lightgrey;
     background-image: linear-gradient(teal, darkcyan,black);
     background-color: black;
@@ -95,8 +110,8 @@ h2 {
 
 .iconlink {
     padding: 32px;
-    margin-right: 22px;
-    margin-left: 22px;
+    margin-right: 20px;
+    margin-left: 20px;
     text-align: center;
     float: left;
 }
@@ -105,10 +120,12 @@ h2 {
     border-color: lightgrey;
     border-style: inset;
     border-radius: 8px; 
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
     border-width: 3px;
     background-color: white;
-    background-image: linear-gradient(lightblue, white)
-
+	background-image: url('iconlinkBack.png');    
+	background-image: linear-gradient(lightblue, white)
 }
 
 p {
@@ -116,6 +133,8 @@ p {
     border-color: lightgrey;
     border-style: inset;
     border-radius: 8px; 
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
     border-width: 3px;
     background-color: white;
     background-image: url('paperBack.jpg');
@@ -123,6 +142,8 @@ p {
 
 iframe {
     border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
     border-width: 3px;
     max-width: 613px;
     margin-top: 16px;
@@ -137,10 +158,22 @@ footer {
     border-style: inset;
     border-color: skyblue;
     border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
     border-width: 3px;
     color: lightgrey;
     background-image: linear-gradient(darkblue, slateblue, skyblue);
+	background-image: url('h1Back.png');
     background-color: darkblue;
     padding: 5px;
-    margin-top: 16px;
+    margin-top: px;
+}
+
+table {
+   border-collapse: collapse; 
+   border-spacing: 0px;
+}
+
+th, td {
+  padding: 0px;
 }
