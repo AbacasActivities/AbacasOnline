@@ -1,0 +1,137 @@
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin:0 auto;
+    display: table-cell;
+    font-family: Georgia;
+    background-image: linear-gradient(to bottom right, lightblue, blue, slateblue);
+    background-color:slateblue;
+    background-attachment: fixed;
+}
+
+.body2 {
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 12px;
+    width: 620px;
+	min-height: 760px;
+    background-image: linear-gradient(to bottom right, lightgrey, grey, slategrey);
+    background-color: lightgrey;
+    border-right-color: grey;
+    border-style: outset;
+    border-width:3px;
+}
+
+h1 {
+    height: 48px;
+    padding-right: 8px;
+    text-align: right;
+    font-size: 40px;
+    border-color: green;
+    border-style: inset;
+    border-width: 3px;
+    background-color: darkgreen;
+    color: lime;
+}
+
+h2 {
+    background-image: linear-gradient(olivedrab, darkgreen);
+    background-color: green;
+    color: white;
+    width: 50%;
+    padding-right: 5px;
+    padding-left: 5px;
+
+}
+
+.nav {
+    height: 32px;
+    background-color: olivedrab;
+    border-style: outset;
+    border-color: olive;
+    border-width: 3px;
+	padding:1px;
+    padding-left: 5px;
+    margin-top: 0;
+}
+
+.nav a {
+    height: 20px;
+    padding: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: black;
+    text-decoration: none;
+    position:absolute;
+    border-style: groove;
+    border-color: olive;
+    border-width: 4px;
+}
+
+.nav a:hover {
+    border-color: skyblue;
+}
+
+.nav a:active {
+    border-style: groove;
+    border-color: darkslategrey;
+    color: lightgrey;
+    background-color: black;
+}
+
+.iconlink {
+    padding: 32px;
+    margin-right: 22px;
+    margin-left: 22px;
+    text-align: center;
+    float: left;
+}
+
+.iconlinkcontainor {
+    border-color: lightgrey;
+    border-style: inset;
+    border-radius: 8px; 
+    border-width: 3px;
+    background-color: white;
+    background-image: linear-gradient(to bottom right, aliceblue, white)
+
+}
+
+p {
+    padding: 12px;
+    border-color: lightgrey;
+    border-style: inset;
+    border-width: 3px;
+    background-color: white;
+    background-image: linear-gradient(to bottom right, aliceblue, white);
+}
+
+iframe {
+    border-radius: 8px;
+    border-width: 3px;
+    max-width: 613px;
+    margin-top: 16px;
+    margin-bottom:16px;
+}
+
+.spacer {
+	background-color:none;
+}
+
+footer {
+    border-style: inset;
+    border-color: skyblue;
+    border-width: 3px;
+    border-color: green;
+    border-style: inset;
+    border-width: 3px;
+    background-color: darkgreen;
+    color: lime;
+    padding: 5px;
+    margin-top: 16px;
+}
