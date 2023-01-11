@@ -63,8 +63,8 @@ h2 {
 
 .nav {
     height: 32px;
-    background-image: linear-gradient(lightcyan, teal, slategrey);
 	background-image: url('navBack.png');
+	background-image: linear-gradient(lightcyan, teal, slategrey);
     background-color: teal;
     border-style: outset;
     border-color: teal;

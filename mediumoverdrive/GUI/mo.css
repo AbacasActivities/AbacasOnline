@@ -4,14 +4,18 @@ html {
 }
 
 body {
+    background-image: url('bg.png');
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+	background-position: left top;
     padding-top: 16px;
     padding-bottom: 16px;
     margin:0 auto;
     display: table-cell;
-    font-family: Georgia;
-    background-image: linear-gradient(to bottom right, lightblue, blue, slateblue);
-    background-color:slateblue;
-    background-attachment: fixed;
+	font-family: Arial;
+    background-color:white;
+
+
 }
 
 .body2 {
@@ -22,7 +26,10 @@ body {
 	min-height: 760px;
     background-image: linear-gradient(to bottom right, lightgrey, grey, slategrey);
     background-color: lightgrey;
-    border-right-color: grey;
+    border-top-color: grey;
+	border-left-color: grey;
+	border-bottom-color: dimgrey;
+	border-right-color: dimgrey;
     border-style: outset;
     border-width:3px;
 }
@@ -33,9 +40,11 @@ h1 {
     text-align: right;
     font-size: 40px;
     border-color: green;
+	border-bottom-color: lightgreen;
+	border-right-color: lightgreen;
     border-style: inset;
     border-width: 3px;
-    background-color: darkgreen;
+    background-color: dimgrey;
     color: lime;
 }
 
@@ -50,10 +59,14 @@ h2 {
 }
 
 .nav {
-    height: 32px;
-    background-color: olivedrab;
+    height: 36px;
+    background-color: slateblue;
     border-style: outset;
-    border-color: olive;
+    border-color: blue;
+	border-bottom-color: slateblue;
+	border-right-color: slateblue;
+	border-top-color: lightblue;
+	border-left-color: lightblue;
     border-width: 3px;
 	padding:1px;
     padding-left: 5px;
@@ -65,11 +78,15 @@ h2 {
     padding: 2px;
     padding-left: 10px;
     padding-right: 10px;
-    color: black;
+    color: white;
     text-decoration: none;
     position:absolute;
     border-style: groove;
-    border-color: olive;
+    border-color: blue;
+	border-bottom-color: slateblue;
+	border-right-color: slateblue;
+	border-top-color: lightblue;
+	border-left-color: lightblue;
     border-width: 4px;
 }
 
@@ -128,9 +145,11 @@ footer {
     border-color: skyblue;
     border-width: 3px;
     border-color: green;
+	border-bottom-color: lightgreen;
+	border-right-color: lightgreen;
     border-style: inset;
     border-width: 3px;
-    background-color: darkgreen;
+    background-color: dimgrey;
     color: lime;
     padding: 5px;
     margin-top: 16px;
