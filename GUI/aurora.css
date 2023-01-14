@@ -108,6 +108,34 @@ h2 {
     background-color: black;
 }
 
+.highlights {
+	margin:10px;
+	padding:5px;
+	width: 150px;
+	/*min-height: 600px;*/
+	float: left;
+	border-color:gold;
+	background-color:darkkhaki;
+	border-style:outset;
+}
+
+.highlights h2 {
+	background-image: linear-gradient(gold, goldenrod);
+	background-color: goldenrod;
+	margin-top:0;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	width:140px;
+}
+
+.highlight-segment {
+	width:145px;
+	height:120px;
+	border-style:inset;
+	border-color:gold;
+	margin-top:10px;
+}
+
 .iconlink {
     padding: 32px;
     margin-right: 20px;
