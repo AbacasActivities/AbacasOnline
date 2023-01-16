@@ -111,7 +111,7 @@ h2 {
 .highlights {
 	margin:10px;
 	padding:5px;
-	width: 150px;
+	width: 152px;
 	/*min-height: 600px;*/
 	float: left;
 	border-color:gold;
@@ -130,7 +130,7 @@ h2 {
 
 .highlight-segment {
 	width:145px;
-	height:120px;
+	height:109px;
 	border-style:inset;
 	border-color:gold;
 	margin-top:10px;
