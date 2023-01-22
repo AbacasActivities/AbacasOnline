@@ -38,7 +38,7 @@ h1 {
     height: 48px;
     padding-right: 8px;
     text-align: right;
-    font-size: 40px;
+    font-size: 32px;
     border-color: green;
 	border-bottom-color: lightgreen;
 	border-right-color: lightgreen;
@@ -110,9 +110,10 @@ h2 {
 }
 
 .iconlinkcontainor {
+	margin-top:20px;
     border-color: lightgrey;
     border-style: inset;
-    border-radius: 8px; 
+ 
     border-width: 3px;
     background-color: white;
     background-image: linear-gradient(to bottom right, aliceblue, white)
