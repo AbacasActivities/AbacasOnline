@@ -1,0 +1,97 @@
+
+#search-form {
+    position: absolute;
+    background: url(header.jpg) 0 -100px no-repeat; 
+	margin-left: -90px; 
+    padding: 8px 0 8px 120px; width: 90%; height: 34px; 
+}
+ 
+#search-form fieldset { 
+    border: none; 
+}
+
+#search-form label { 
+    display: block; 
+	float: left; 
+	color: #fff; 
+	height: 22px; 
+	line-height: 22px; 
+	width: 50px; 
+	background: url(static.png) 40px 0 no-repeat; 
+}
+
+#search-form input.text { 
+    background: #8CA4C4 url(static.png) -10px 0; border: none; 
+    color: #fff; display: block; float: left; line-height: 22px; 
+    width: 190px; 
+    height: 22px; 
+}
+ 
+#search-form input[type=text]:focus, select:focus { 
+    outline: 0; 
+}
+
+#search-form div { 
+    float: left; 
+	width: 110px; 
+	position: relative; 
+	height: 25px; 
+}
+
+#search-form span { 
+    display: block; 
+	line-height: 22px; 
+	color: #fff; 
+	height: 22px; 
+	cursor: pointer; 
+	padding: 0 3px; 
+	line-height: 20px; 
+	background: #4e719e url(static.png) -200px 0 no-repeat; 
+}
+
+#search-form span:hover { background-position: -200px -22px; }
+
+#search-form div div { 
+    position: absolute; 
+	visibility: hidden; 
+	z-index: 9; 
+	width: 110px; 
+	height: auto; 
+	padding: 0; 
+	top: 25px; 
+	left: 5px; 
+}
+
+#search-form div:hover div { 
+    visibility: visible; 
+}
+
+#search-form div ul { 
+    padding: 2px; 
+	background: #132036; 
+	width: auto; 
+	height: auto; 
+	float: none; 
+}
+
+#search-form div li { 
+    display: block; 
+	padding: 0 2px; 
+	cursor: default; 
+	line-height: 1.8em; 
+	margin: 1px; 
+	float: none; 
+	height: auto; 
+}
+
+#search-form div li:hover { 
+    background-color: #384458; 
+}
+
+#search-form div a { 
+    display: block; 
+	color: #fff; 
+	line-height: normal; 
+	font-weight: normal; 
+	padding: .2em; 
+}
