@@ -9,7 +9,8 @@ body {
     margin:0 auto;
     display: table-cell;
 	font-family: Arial;
-    background-color:white;
+    background-color:black;
+	color:white;
 
 
 }
@@ -30,15 +31,6 @@ body {
     background-color: white;
     background-image: linear-gradient(to bottom right, aliceblue, white)
 
-}
-
-p {
-    padding: 12px;
-    border-color: lightgrey;
-    border-style: inset;
-    border-width: 3px;
-    background-color: white;
-    background-image: linear-gradient(to bottom right, aliceblue, white);
 }
 
 iframe {
@@ -62,7 +54,8 @@ footer {
 	border-right-color: lightgreen;
     border-style: inset;
     border-width: 3px;
-    background-color: dimgrey;
+    background-color: black;
+	color:white;
     color: lime;
     padding: 5px;
     margin-top: 16px;
