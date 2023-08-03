@@ -4,6 +4,7 @@ body {
 	display: table;
 	margin: auto;
 	padding:0;
+	background-color: darkslategray;
 	background-image: url('webAssets/body.png');
 }
 
@@ -19,7 +20,26 @@ body {
 	display: table;
 }
 
-a {
+h2 {
+	color:darkred;
+	color:darkred;
+}
+
+a { 
+	border-width:0px;
+	text-align: center;
+	display:block;
+	position: float;
+	float:left;
+	color:white;
+}
+
+br {
+	height:30px
+}
+
+a img{ 
+	border-width:0px;
 	text-align: center;
 	display:block;
 	position: float;
