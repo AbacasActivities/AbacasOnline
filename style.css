@@ -1,7 +1,6 @@
 body {
 	color: white;
 	font-family: Arial;
-	display: table;
 	margin: auto;
 	padding:0;
 	background-color: darkslategray;
@@ -9,15 +8,28 @@ body {
 }
 
 .body2 {
-	width: 1024px;
+	display:block;
+	margin:auto;
+	margin-top:29px;
+	width: 763px;
 	background-image: url('webAssets/background.png');
+	vertical-align:middle;
 }
 
 .header {
-	width: 1024px;
-	height: 500px;
+	margin:auto;
+	margin-bottom:0;
+	width: 763px;
+	height: 200px;
 	background-image: url('webAssets/header.png');
 	display: table;
+}
+
+.nav {
+	width:500px;
+	height:49px;
+	margin-left:29px;
+	margin-top:30px;
 }
 
 h2 {
@@ -55,44 +67,52 @@ a img{
 }
 
 .contentbox {
-	width:1000px;
-	height:1000px;
+	margin-left:29px;
+	margin-right:29px;
+	width:706px;
+	height:1425px;
+	font-size:11px;
 	background-image:url('webAssets/paragraph.png');
+	
+}
+
+.contentboxshort {
+	margin-left:29px;
+	margin-right:29px;
+	width:706px;
+	height:842px;
+	font-size:11px;
+	background-image:url('webAssets/paragraphshort.png');
 	
 }
 
 .tabselected {
 	background-image:url('webAssets/tabselected.png');
-	width:265px;
-	padding:18px;
-	height:14px;
+	background-repeat:no-repeat;
+	margin-top:7px;
+	width:229px;
+	height:28px;
+	font-size:12px;
 	float:left;
-	margin-top:38px;
 }
 
 .tabunselected {
 	background-image:url('webAssets/tabunselected.png');
-	width:265px;
-	padding:18px;
-	height:14px;
+	background-repeat:no-repeat;
+	margin-top:7px;
+	width:229px;
+	height:28px;
+	font-size:12px;
 	float:left;
-	margin-top:38px;
-}
-
-.tabunselected a {
-	color:black;
-}
-
-.biglinks {
-	height:340px;
 }
 
 .footer {
-	width: 998px;
-	height: 23px;
+	width: 737px;
+	height: 24px;
 	padding: 13px;
 	text-align: center;
-	size: 11px;
+	margin-bottom:29px;
+	font-size: 14px;
 	background-image: url('webAssets/footer.png');
 }
 
