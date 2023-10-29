@@ -3,8 +3,8 @@ body {
 	font-family: Arial;
 	margin: auto;
 	padding:0;
-	background-color: darkslategray;
-	background-image: url('webAssets/body.png');
+	background-color: lightgray;
+	background-image: url('webAssets/clouds.jpg');
 }
 
 .body2 {
@@ -57,6 +57,17 @@ a img{
 	position: float;
 	float:left;
 	color:white;
+}
+
+.quickLinks {
+	margin-left:30px;
+	margin-top:20px;
+	margin-bottom:15px;
+	height:200px;
+	width:700px;
+}
+.quickLinks a {
+	float:left;
 }
 
 .feed {

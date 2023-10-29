@@ -1,0 +1,42 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <LINK href="viewer.css" rel="stylesheet" type="text/css">
+    <style>
+        body {
+          background: #555;
+        }
+            
+        .body1 {
+          margin: auto;
+        }
+    </style>
+</head>
+<body height="100%">
+<div class="body1">
+
+    <div class="viewer">
+
+    <div id="pagelast" style="float:left;width:300px;height:450px;margin:0;">
+    </div>
+    <div id="page" style="float:right">
+        <img height="450" width="300px" src="comic/p0.png">
+    </div>
+    <div class="nav">
+        <button class="Back" id="Back" onclick="pagenumber1()" style="float:left;width:300px;">
+            Back
+        </button>
+        <button class="Next" id="Next" onclick="pagenumber()" style="float:right;width:300px;">
+            Next
+        </button>
+        </div>
+    
+    <script src="program.js">
+    </script>
+    </div>
+
+</div>
+</body>
+</html>
