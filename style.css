@@ -37,15 +37,6 @@ h2 {
 	color:darkred;
 }
 
-a { 
-	border-width:0px;
-	text-align: center;
-	display:block;
-	position: float;
-	float:left;
-	color:white;
-}
-
 br {
 	height:30px
 }
