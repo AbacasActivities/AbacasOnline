@@ -3,7 +3,7 @@ body {
 	font-family: Arial;
 	margin: auto;
 	padding:0;
-	background-color: lightgray;
+	background-color: darkslategray;
 	background-image: url('webAssets/Clouds.jpg');
 }
 
@@ -39,6 +39,13 @@ h2 {
 
 br {
 	height:30px
+}
+
+
+a { 
+	display:block;
+	position: float;
+	color:black;
 }
 
 a img{ 

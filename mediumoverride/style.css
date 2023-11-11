@@ -1,0 +1,195 @@
+body {
+	color: black;
+	font-family: Arial;
+	margin: auto;
+	padding:0;
+	background-color: teal;
+	background-image: url('../webAssets/Clouds.jpg');
+	background-attachment:fixed;
+}
+
+.containor {
+	margin:auto;
+	margin-bottom:29px;
+	display:flex;
+	width:804px;
+	height:100%;
+	padding:29px;
+	margin-top:60px;
+	background-color:rgb(0, 149, 182, 32%);
+	backdrop-filter:blur(10px);
+	border-radius: 32px;
+	border-width:1px;
+	border-style:solid;
+	border-color:grey;
+	box-shadow: 0px 0px 16px white inset, 4px 4px 16px black;
+}
+
+.sidebar {	
+	display:block;
+	float:left;
+	margin:auto;
+	margin-top:29px;
+	width:150px;
+	display: block;
+	background-color:rgb(255, 234, 204);
+	border-radius: 12px 0px 0px 12px;
+	border-width:1px;
+	border-style:solid;
+	border-color:grey;
+	box-shadow: 0px 0px 16px white inset, 4px 4px 16px black;
+}
+
+.button {
+	width:140px;
+	height:32px;
+	background-color:lightblue;;
+	background: linear-gradient(to bottom, rgba(206,219,233,1) 0%,rgba(170,197,222,1) 17%,rgba(97,153,199,1) 50%,rgba(58,132,195,1) 51%,rgba(65,154,214,1) 59%,rgba(75,184,240,1) 71%,rgba(58,139,194,1) 84%,rgba(38,85,139,1) 100%);
+	float:right;
+}
+
+.buttonp {
+	width:140px;
+	height:32px;
+	background: linear-gradient(to bottom, rgba(174,188,191,1) 0%,rgba(110,119,116,1) 50%,rgba(10,14,10,1) 51%,rgba(10,8,9,1) 100%);
+	float:right;
+}
+
+.button:hover {
+	color:white;
+	background: linear-gradient(to bottom, rgba(183,222,237,1) 0%,rgba(113,206,239,1) 50%,rgba(33,180,226,1) 51%,rgba(183,222,237,1) 100%);
+}
+
+.button a {
+	color:white;
+	font-size:18px;
+	margin:7px
+}
+
+.buttonp a {
+	color:white;
+	font-size:18px;
+	margin:7px
+}
+
+.body2 {
+	align-items:center;
+	display:block;
+	float:right;
+	width: 650px;
+	background-color:grey;
+	backdrop-filter:blur(10px);
+	vertical-align:middle;
+	border-radius:12px;
+	border-width:1px;
+	border-style:solid;
+	border-color:grey;
+	box-shadow: 0px 0px 16px white inset, 4px 4px 16px black;
+
+}
+
+.header {
+	margin:auto;
+	margin:25px;
+	width: 600px;
+	height: 74px;
+	border-radius:6px;
+	border-width:1px;
+	border-color:black;
+	background-color:lightgrey;
+	display: table;
+}
+
+.header h1 {
+	width:330px;
+	margin-right:0;
+	float:left;
+}
+
+h2 {
+	color:darkred;
+	margin-left:20px;
+}
+
+br {
+	height:30px
+}
+
+
+.viewer {
+	background-color:black;
+	font-family: Arial;
+	height:472px;
+    width:600px;
+}
+
+a { 
+	display:block;
+	position: float;
+	color:black;
+}
+
+a img{ 
+	border-width:0px;
+	text-align: center;
+	display:block;
+	position: float;
+	float:left;
+	color:white;
+}
+
+.quickLinks {
+	margin-left:30px;
+	margin-top:20px;
+	margin-bottom:15px;
+	height:200px;
+	width:700px;
+}
+.quickLinks a {
+	float:left;
+}
+
+.feed {
+	width: 1024px;
+	height: 320px;
+	background-image: url('webAssets/feed.png')
+	
+}
+
+.contentbox {
+	margin:25px;
+	width: 600px;
+	height: 74px;
+	border-width:1px;
+	border-radius:6px;
+	border-color:black;
+	background-color:white;
+	display: table;
+}
+
+.contentbox p {
+	text-indent:40px;
+	margin:20px;
+	width:550px;
+}
+
+.footer {
+	white-space:no-wrap;
+	margin:auto;
+	margin-top:20px;
+	margin-bottom:20px;
+	width: 574px;
+	height: 24px;
+	padding: 13px;
+	text-align: center;
+	margin-bottom:29px;
+	border-radius:6px;
+	font-size: 14px;
+	background-color:lightgrey;
+}
+
+.footer a { 
+	display:inline;
+	position: float;
+	color:black;
+}
