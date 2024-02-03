@@ -1,0 +1,128 @@
+/*Stylesheet for AbacasOnline.com Version 5*/
+
+body {
+	margin:0;
+	background:lightgrey;
+	background-image: url('webAssets/Clouds.jpg');
+	height:100%;
+	display:block;
+	font-family:helvetica;
+	font-size:9pt;
+}
+
+.divider {
+	display:flex;
+	flex:1;
+}
+
+.container {
+	max-width:700px;
+	margin:auto;
+	box-shadow: 0 3px 4px rgba(0,0,0,.75), 0 0 1px white inset;
+	background-image:linear-gradient(to bottom,#EFCAB0 0%,#7D614D 3%,#7D614D 97%,#4C2B14 100%);
+	border: 1px solid #4C2B14;
+	padding: 10px 0 10px 0;
+}
+
+.headerContainer {
+	z-index:0;
+	background:#829EB2;
+	box-shadow: 0 0 1px white inset;
+	border: 1px solid #415F75;
+	display:flex;
+	align-items:center;
+	font-size:12pt;
+}
+
+.headerButtons {
+	padding: 3px 5px;
+	border: 1px solid rgba(255,255,255,0);
+	margin-right:3px;
+}
+
+.headerButtons a {
+	text-decoration:none;
+	color:white;
+	font-weight:bold;
+}
+
+.headerButtons:hover {
+	padding: 3px 5px;
+	border: 1px solid black;
+	border-radius:4px;
+	box-shadow: 0 0 1px white inset;
+	background-image:linear-gradient(to bottom,#9FA7E4 0%,#6D74A3 75%);
+}
+
+.headerButtons:active {
+	padding: 3px 5px;
+	border: 1px solid black;
+	border-radius:4px;
+	box-shadow: 0 0 1px white inset;
+	background-image:linear-gradient(to bottom,#6D74A3 0%,#9FA7E4 75%);
+}
+
+.bitviewBar {
+	z-index:0;
+	background:#607c90;
+	box-shadow: 0 0 1px white inset;
+	border: 1px solid #415F75;
+	align-items:center;
+	font-size:12pt;
+}
+
+.footerContainer {
+	background:#829EB2;
+	box-shadow: 0 0 1px white inset;
+	border: 1px solid #415F75;
+	display:block;
+	align-items:center;
+	color:#eeeeee;
+	padding:10px 0;
+}
+
+.footerContainer a{
+	text-decoration:none;
+	color:blue;
+}
+
+.footerContainer a:hover{
+	text-decoration:underline;
+	color:white;
+}
+
+.contents {
+	z-index:-1;
+	background:#eeeeee;
+	background-image: linear-gradient(to bottom, #dddddd, #efefef);
+	padding:20px;
+	
+}
+
+.homeBody {
+	width:600px;
+	margin:0 auto;
+	background:white;
+}
+
+p {
+	margin:0;
+	font-family: georgia;
+	color: #333333;
+	text-indent:40px;
+}
+
+#owler_update_list li {
+	margin:5px
+}
+
+#owler_list li {
+	margin:5px
+}
+
+th {
+	text-align:right;
+}
+
+
+
