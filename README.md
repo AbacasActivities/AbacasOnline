@@ -1,3 +1,3 @@
 # AbacasOnline
-The former github pages site hosting AbacasOnline.com.
-For the most recent AbacasOnline updates, please go to <a href="https://abacasonline.neocities.org">the Neocities site.</a>
+The github pages site hosting AbacasOnline.com.
+I decided to come back and just stop using bitview iframes on my site.
