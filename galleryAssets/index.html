@@ -2,10 +2,22 @@
 <head>
 	<link rel="icon" type="image/x-icon" href="favicon.ico">
 	<title>AO Home</title>
+	<script src="program.js"></script>
 </head>
-<body style=" display:flex; align-items:center;background-image: linear-gradient(0deg, rgba(58,60,75,1) 0%, rgba(179,184,201,1) 25%, rgba(147,147,184,1) 50%, rgba(91,91,91,1) 75%, rgba(42,42,42,1) 100%);margin:0;height:100%">
+<body style=" display:flex; align-items:center;background-image: linear-gradient(0deg, rgba(58,60,75,1) 0%, rgba(179,184,201,1) 25%, rgba(147,147,184,1) 50%, rgba(91,91,91,1) 75%, rgba(42,42,42,1) 100%);margin:0;height:100%;background-attachment:fixed;">
 
-<div style="margin:auto;font-family:georgia;color:white;font-size:32pt;font-weight:bold;">Coming Soon!</div><br>
+<span class="galleryPreview" style="align-items:center;margin:auto;">
+			<span>
+				<button id="back" style="float:left;height:32px;margin-top:28%;width:25px;margin-right:120px" onclick="back()"><b>&lt;</b></button>
+				<span style="align-items:center;">
+			<span id="1" style="float:left;margin-top:17%;margin-right:-120px"><img style="width:200px;" src="-1.png"></span>
+			<span id="2" style="float:left;position:relative;z-index:2;"><img style="width:450px;" src="0.png"></span>
+			<span id="3" style="float:left;position:relative;margin-top:17%;margin-left:-120px;z-index:1;"><img style="width:200px;" src="1.png"></span>
+				</span>
+				<button id="next" style="float:right;height:32px;margin-top:28%;width:25px;margin-left:120px" onclick="next()"><b>&gt;</b></button>
+			</span>
+</span>
+		
 <span style="position:fixed;bottom:0;right:0;padding:10px"><a href="../index.html" style="color:white;font-family:helvetica;font-weight:bold">BACK TO HOME</a></span>
 
 </body>
