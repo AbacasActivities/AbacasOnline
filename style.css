@@ -76,6 +76,7 @@ body {
 
 .sbutton a {
 	color:lightgrey;
+	text-decoration:none;
 }
 
 .sbutton a:hover {
