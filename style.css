@@ -66,6 +66,8 @@ body {
 	background:#111111;
 	font-size:12px;
 	height:16px;
+	display:flex;
+	align-items:center;
 }
 
 .sbutton {
