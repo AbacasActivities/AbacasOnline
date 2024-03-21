@@ -62,6 +62,24 @@ body {
 	background-image:linear-gradient(to bottom,#6D74A3 0%,#9FA7E4 75%);
 }
 
+.services {
+	background:#111111;
+	font-size:12px;
+	height:16px;
+}
+
+.sbutton {
+	margin:6px 0;
+}
+
+.sbutton a {
+	color:lightgrey;
+}
+
+.sbutton a:hover {
+	color:white;
+}
+
 .bitviewBar {
 	z-index:0;
 	background:#607c90;
