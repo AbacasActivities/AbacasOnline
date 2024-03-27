@@ -64,8 +64,8 @@ body {
 
 .services {
 	background:#111111;
-	font-size:12px;
-	height:16px;
+	font-size:14px;
+	height:30px;
 	display:flex;
 	align-items:center;
 }
