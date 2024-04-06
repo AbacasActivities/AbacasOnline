@@ -2,8 +2,8 @@
 
 body {
 	margin:0;
-	background:lightgrey;
-	background-image: url('webAssets/Clouds.jpg');
+	background:#cccccc;
+	/*background-image: url('webAssets/Clouds.jpg');*/
 	height:100%;
 	display:block;
 	font-family:helvetica;
@@ -15,51 +15,76 @@ body {
 	flex:1;
 }
 
-.container {
+/*.container {
 	max-width:700px;
 	margin:auto;
 	box-shadow: 0 3px 4px rgba(0,0,0,.75), 0 0 1px white inset;
 	background-image:linear-gradient(to bottom,#EFCAB0 0%,#7D614D 3%,#7D614D 97%,#4C2B14 100%);
 	border: 1px solid #4C2B14;
 	padding: 10px 0 10px 0;
-}
+}*/
 
 .headerContainer {
 	z-index:0;
-	background:#829EB2;
-	box-shadow: 0 0 1px white inset;
-	border: 1px solid #415F75;
+	background:#eeeeee;
+	border-bottom: 1px solid #cccccc;
 	display:flex;
 	align-items:center;
-	font-size:12pt;
+	font-size:10pt;
+	height:50px;
 }
 
 .headerButtons {
 	padding: 3px 5px;
-	border: 1px solid rgba(255,255,255,0);
-	margin-right:3px;
+	background:#78B1DB;
+	border: 1px solid #71A6CE;
 }
 
 .headerButtons a {
 	text-decoration:none;
-	color:white;
+	color:#eeeeee;
 	font-weight:bold;
 }
 
 .headerButtons:hover {
 	padding: 3px 5px;
 	border: 1px solid black;
-	border-radius:4px;
 	box-shadow: 0 0 1px white inset;
-	background-image:linear-gradient(to bottom,#9FA7E4 0%,#6D74A3 75%);
+	background-image:linear-gradient(to bottom,#BCD9EF 0%,#78B1DB 75%);
 }
 
 .headerButtons:active {
 	padding: 3px 5px;
+	border: 1px solid #829EB3;
+	box-shadow: 0 0 1px grey inset;
+	background-image:linear-gradient(to bottom,#8DBADB 0%,#829EB3 75%);
+}
+
+.hbemail {
+	padding: 3px 5px;
+	background:#DB7878;
+	border: 1px solid #CE7171;
+	margin-right:10px;
+}
+
+.hbemail a {
+	text-decoration:none;
+	color:#eeeeee;
+	font-weight:bold;
+}
+
+.hbemail:hover {
+	padding: 3px 5px;
 	border: 1px solid black;
-	border-radius:4px;
 	box-shadow: 0 0 1px white inset;
-	background-image:linear-gradient(to bottom,#6D74A3 0%,#9FA7E4 75%);
+	background-image:linear-gradient(to bottom,#EFBDBC 0%,#DB787D 75%);
+}
+
+.hbemail:active {
+	padding: 3px 5px;
+	border: 1px solid #B28382;
+	box-shadow: 0 0 1px grey inset;
+	background-image:linear-gradient(to bottom,#DB8E8D 0%,#B28282 75%);
 }
 
 .services {
@@ -93,18 +118,23 @@ body {
 }
 
 .footerContainer {
-	background:#829EB2;
-	box-shadow: 0 0 1px white inset;
-	border: 1px solid #415F75;
+	background:#cccccc;
+	background-image:linear-gradient(to bottom, #aaaaaa 0%, #cccccc 10%, #cccccc 100%);
+	border-top: 1px solid #415F75;
 	display:block;
 	align-items:center;
-	color:#eeeeee;
+	color:#444444;
 	padding:10px 0;
+	font-size:10pt;
+}
+
+.fbutton {
+	margin-left:10px;
 }
 
 .footerContainer a{
 	text-decoration:none;
-	color:blue;
+	color:#444444;
 }
 
 .footerContainer a:hover{
@@ -124,6 +154,8 @@ body {
 	width:600px;
 	margin:0 auto;
 	background:white;
+	padding:20px;
+	border:1px solid lightgrey;
 }
 
 p {
